@@ -1,0 +1,41 @@
+.row_custom {
+	height: 11%;
+}
+
+.full {
+	height: 100%;
+	background-color: green;
+}
+
+
+/* Large desktop */
+    @media screen and (min-width: 993px) {
+		.container_custom {
+			width: 900px;
+			height: 600px;
+		}
+    }
+     
+/* Portrait tablet to landscape and desktop */
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+    	.container_custom {
+    		width: 700px;
+    		height: 400px;
+    	}
+    }
+     
+/* Landscape phone to portrait tablet */
+    @media screen and (max-width: 767px) {
+    	.container_custom {
+    		width: 500px;
+    		height: 300px; 
+    	}
+    }
+     
+/* Landscape phones and down */
+    @media screen and (max-width: 480px) {
+    	.container_custom {
+			width: 400px;
+			height: 200px;
+    	}
+    }
